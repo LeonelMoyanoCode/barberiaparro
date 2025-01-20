@@ -1,0 +1,331 @@
+/* Global Styles */
+
+@import "https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&display=swap";
+:root {
+    --color-title: #707070;
+    --color-secondary: #000;
+    --color-text: #555;
+    --color-white: #fff;
+    --color-shadow: #00000080;
+    --color-card-bg: #f9f9f9;
+    --color-border: #ddd;
+    --font-title: "Fjalla One", serif;
+    --font-text: "Cantarell", serif;
+    --shadow-default: 0 4px 15px #0000001a;
+    --radius-default: 8px;
+    --radius-card: 15px;
+    --transition-default: .2s;
+    --input-padding: 12px;
+    --button-font-size: 16px;
+    --max-card-width: 320px;
+    --card-height-small: auto;
+    --card-height-large: auto;
+}
+
+
+/* Header */
+
+.hero {
+    width: 100%;
+    background-image: url(../multimedia/fondoadmin.jpg);
+    color: var(--color-white);
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Navigation */
+
+.nav {
+    --padding-container: 0;
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.nav__logo img {
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* Header Container */
+
+.logo__admin {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto
+}
+
+.container2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        height: 100%;
+    }
+    .container2 {
+        grid-template-columns: 1fr;
+    }
+    .card,
+    .card2,
+    .card3 {
+        margin: 10px auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero {
+        height: 94vh;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 390px) {
+    .turnos__container {
+        padding: 0px;
+    }
+    .container2 {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 390px) {
+    .turnos__container {
+        padding: 10px;
+    }
+}
+
+
+/* Card Styles */
+
+.card {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    width: 100%;
+    max-width: var(--max-card-width);
+    height: 450px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow-default);
+}
+
+.card2 {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    width: 100%;
+    max-width: var(--max-card-width);
+    height: var(--card-height-large);
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow-default);
+}
+
+.card3 {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    width: 100%;
+    max-width: 500px;
+    height: var(--card-height-small);
+    overflow: hidden;
+    box-shadow: var(--shadow-default);
+}
+
+
+/* Form Styles */
+
+.form__container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background-color: var(--color-title);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    transition: .3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #000;
+}
+
+
+/* Table Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 50px;
+}
+
+thead {
+    background-color: #929292;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-family: var(--font-title);
+    text-shadow: #000 2px 2px 4px;
+}
+
+td {
+    font-family: var(--font-text);
+    text-shadow: #000 2px 2px 4px;
+}
+
+tbody {
+    background-color: #1f1f1f;
+}
+
+
+/* Welcome Section */
+
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #525252;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.footer-content {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    color: #817e7e;
+}
+
+.footer-content a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: var(--color-white);
+}
+
+
+/* Header Title */
+
+h1 {
+    font-family: var(--font-title);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Section Titles */
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    text-align: center;
+    text-shadow: #00000096 2px 2px 4px;
+    padding: 15px;
+    border-radius: calc(var(--radius-card) / 2) calc(var(--radius-card) / 2) 0 0;
+    box-shadow: var(--shadow-default);
+    font-family: var(--font-title);
+}
+
+
+/* Labels */
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    color: var(--color-text);
+    font-family: var(--font-text) !important;
+}
+
+
+/* Input Styles */
+
+input[type="text"],
+input[type="password"],
+select {
+    padding: var(--input-padding);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-default);
+    font-size: 14px;
+    color: #333;
+    background: var(--color-white);
+    box-shadow: inset 0 2px 5px #0000000d;
+    transition: border-color var(--transition-default);
+    margin: 10px auto;
+    margin-left: 5%;
+    width: 90%;
+    font-family: var(--font-title);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: var(--shadow-hover);
+}
+
+input[type="submit"] {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: var(--input-padding);
+    font-size: var(--button-font-size);
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: var(--radius-default);
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    font-family: var(--font-text);
+    box-shadow: #000000a2 2px 2px 4px;
+}

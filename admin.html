@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluqueria Parro | Admin</title>
+    <link rel="shortcut icon" href="./multimedia/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <a href="index.html">
+                <div class="left-arrow">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="80" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 8 8 12 12 16" />
+                      <line x1="16" y1="12" x2="8" y2="12" />
+                    </svg>
+            </a>
+            </div>
+            <div class="nav__logo">
+                <a href="index.html">
+                    <img src="./multimedia/logo.png">
+                </a>
+            </div>
+
+        </nav>
+
+        <div class="container2">
+            <section class="card">
+                <section class="cards__container">
+                    <h2>Panel Admin</h2>
+                    <div class="welcome__container">
+                        <h1 id="welcomeMessage"></h1> 
+                        <img src="./multimedia/logo.png" class="logo__admin">
+                    </div>
+                </section>
+            </section>
+            <section class="card2">
+                <section class="inscription-form">
+                    <h2>Agendar Turno</h2>
+                    <div class="form__container">
+                        <form id="turnoForm2">
+                            <label for="nombre2">Nombre:</label>
+                            <input type="text" id="nombre2" name="nombre" required><br><br>
+        
+                            <label for="fecha2">Fecha:</label>
+                            <input type="date" id="fecha2" name="fecha" required><br><br>
+        
+                            <label for="horario2">Horario:</label>
+                            <input type="time" id="horario2" name="horario" required><br><br>
+        
+                            <label for="procedimiento2">Procedimiento:</label>
+                            <input type="text" id="procedimiento2" name="procedimiento" required><br><br>
+        
+                            <input type="submit" value="Agendar Turno">
+                        </form>
+                    </div>
+                </section>
+            </section>
+            <section class="card3">
+                <h2>Lista de Turnos Agendados</h2>
+                <div class="turnos__container">
+                    <table id="tablaTurnos" border="1">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Fecha</th>
+                                <th>Horario</th>
+                                <th>Procedimiento</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cuerpoTabla">
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        
+        
+    </header>
+    <footer>
+        <div class="footer-content">
+            <p>Creado Por: Leonel Moyano</p>
+            <p> © 2024 Copyright: <a href="index.html">PARRO</a></p>
+        </div>
+    </footer>
+    <script src="./js/admin.js"></script>
+</body>
+
+</html>
