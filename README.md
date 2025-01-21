@@ -1,4 +1,5 @@
 # Peluquería Parro
+Link : [Peluqueria Parro](https://leonelmoyanocode.github.io/peluqueriaparro/)
 
 Este proyecto consta de dos páginas principales: la página de inicio para los clientes y una página de administración para el personal.
 
