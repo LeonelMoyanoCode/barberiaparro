@@ -16,8 +16,9 @@ La página principal ofrece a los clientes información relevante sobre nuestros
 
 ![Peluqueria index](multimedia/indexparro.jpg)
 
-* Parte del login
+
 ![Peluqueria login](multimedia/loginparro.jpg)
+
 
 ## 🔐 Página de Administración (admin.html)
 
