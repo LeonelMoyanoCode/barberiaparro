@@ -14,10 +14,10 @@ La página principal ofrece a los clientes información relevante sobre nuestros
 
 - **Formulario de Inicio de Sesión**: Área para que los administradores ingresen al panel de administración.
 
-[Peluqueria index](multimedia/indexparro.jpg)
+![Peluqueria index](multimedia/indexparro.jpg)
 
 * Parte del login
-[Peluqueria login](multimedia/loginparro.jpg)
+![Peluqueria login](multimedia/loginparro.jpg)
 
 ## 🔐 Página de Administración (admin.html)
 
@@ -27,7 +27,7 @@ La sección de administración está diseñada para el uso interno del personal 
   - **Registro de Nuevos Turnos**: Formularios para agendar citas de clientes.
   - **Visualización de Turnos**: Vista detallada de las reservas del mes en curso, con al menos 5 reservas predefinidas.
 
-[Peluqueria Admin](multimedia/adminParro.jpg)
+![Peluqueria Admin](multimedia/adminParro.jpg)
 
 ## 🛠️ Tecnologías Utilizadas
 
