@@ -1,39 +1,33 @@
-# 💇‍♂️ Peluquería [Nombre de la Peluquería]
+# Peluquería Parro
 
-Bienvenido al repositorio del sitio web de la Peluquería [Nombre de la Peluquería]. Este proyecto consta de dos páginas principales: la página de inicio para los clientes y una página de administración para el personal.
+Este proyecto consta de dos páginas principales: la página de inicio para los clientes y una página de administración para el personal.
 
 ## 🏠 Página Principal (index.html)
 
 La página principal ofrece a los clientes información relevante sobre nuestros servicios y el ambiente de la peluquería. Incluye:
 
-- **Información del Negocio**: Detalles sobre nuestros servicios, horarios de atención y ubicación.
+- **Información del Negocio**: Detalles sobre nuestros servicios,ubicación y número whatsapp de contacto.
 
-- **Galería de Imágenes**: Una cuadrícula de fotos que muestran ejemplos de nuestros trabajos y el ambiente del salón.
-
-- **Testimonios de Clientes**: Reseñas y experiencias compartidas por nuestros clientes satisfechos.
-
-- **Multimedia**: Videos y audios que destacan nuestros servicios y promociones especiales.
+- **Galería de Imágenes y Gif**: Una cuadrícula de fotos y gif que muestran ejemplos de nuestros trabajos y el ambiente del salón.
 
 - **Menú de Navegación**: Acceso fácil a secciones como Servicios, Reservas y Contacto.
 
-- **Pie de Página**: Información de contacto y enlaces a nuestras redes sociales.
-
 - **Formulario de Inicio de Sesión**: Área para que los administradores ingresen al panel de administración.
 
+[Peluqueria index](multimedia/indexparro.jpg)
+
+* Parte del login
+[Peluqueria login](multimedia/loginparro.jpg)
 
 ## 🔐 Página de Administración (admin.html)
 
 La sección de administración está diseñada para el uso interno del personal de la peluquería. Sus características incluyen:
 
-- **Inicio de Sesión**: Acceso restringido para empleados administrativos mediante credenciales.
-
 - **Gestión de Turnos**:
   - **Registro de Nuevos Turnos**: Formularios para agendar citas de clientes.
   - **Visualización de Turnos**: Vista detallada de las reservas del mes en curso, con al menos 5 reservas predefinidas.
 
-- **Navegación**: Enlace para regresar a la página principal.
-
-- **Pie de Página**: Información de contacto y enlaces internos relevantes.
+[Peluqueria Admin](multimedia/adminParro.jpg)
 
 ## 🛠️ Tecnologías Utilizadas
 
